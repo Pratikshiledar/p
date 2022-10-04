@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <Head> 
+        <Title>This is  My First Web Page.</Title>
+        <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </Head>
+    <body>
+        <div id="container" class="container" style="width: 80%;">
+            <div id="nav">
+         
+        <a class="btn btn-primary" href="index.html">Home</a></button>
+        <a class="btn btn-danger" href = "about.html">About US</a></button>
+        <a class="btn btn-success" href = "contact.html">Contact Us</a></button>
+        
+            </div>
+            <div id="content">
+                <h1 id="title" > > <! header tag> Welcome</h1>
+            <h2 >Hello World  </h2>
+            <h3 >IT's Web.</h3>
+        <p> <! para tag> 
+            This is  My First Web Page.
+        </p>
+        <p>Testing Javascript</p>
+        <p id="test">Testing Javascript With Attribute ID</p>
+        <p class="testclass">Testing Javascript With Class</p>
+        <p class="testclass">Testing Javascript With Class</p>
+        <p class="information"> <! para tag> 
+            This is  tab 1.
+        </p>
+        <p> <! para tag> 
+            This is  tab 2.
+        </p>
+        <p> <! para tag> 
+            This is  tab 3.
+        </p>
+        <a id="link1" class="btn btn-primary" href="http://www.flipkart.com/" target="_blank"> <! hyperlink tag>
+            Flipkart
+        </a>
+    </br></br></br> <button type="button" class="btn btn-primary" onclick="texteditor()">clickfortextchange</button>
+    <button type="button" class="btn btn-danger" onclick="texteditor()">clicktohidetitle</button>
+            </div>
+            <div id="fotter"></div>
+        </div>
+       
+        
+        
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+
+        <script src="script.js"></script>
+        <script>
+            
+        $(function(){
+            $('#hide').click(function()
+            {
+              //$('#title').toggle();
+              $('#title').addClass('subtitle');
+              $('#home').addClass('subtitle');
+              $('#about').addClass('subtitle');
+            })
+             })
+        </script>
+    </body>
+
+</html>

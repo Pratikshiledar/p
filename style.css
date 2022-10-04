@@ -1,0 +1,39 @@
+
+
+     h1,h2,h3 {
+             color: rgb(18, 18, 214);
+            }
+            h1{
+                text-decoration: underline;
+            }
+            #title {
+                text-decoration: underline;
+                background-color: red;
+            }
+ .information{
+    color: purple;
+    font-style: italic;
+ }
+ .dp{
+    width: 200px;
+    height: 200px;
+ }
+ #stafftable{
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+ }
+ #stafftable td,#stafftable th{
+    border: 1px solid #bbb;
+    padding: 8px;
+    border-collapse: collapse;
+ }
+ #stafftable th{
+    background-color:  purple;
+
+ }
+ .subtitle
+ {
+ text-decoration: dotted;
+ color: white;
+ }
